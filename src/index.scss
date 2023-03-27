@@ -1,0 +1,92 @@
+@import "@fontsource/dm-sans";
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+.app {
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.app {
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* track  */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* handle  */
+
+::-webkit-scrollbar-thumb {
+  background: purple;
+}
+
+/* hangle hover  */
+
+::-webkit-scrollbar-track:hover {
+  background: rgba(165, 163, 174, 0.3);
+}
+
+::selection {
+  background-color: rgba(197, 62, 35, 0.15);
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
