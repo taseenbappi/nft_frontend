@@ -9,7 +9,7 @@ const Hero = () => {
       style={{ marginTop: "60px", marginBottom: "122px" }}
     >
       <div className="row align-items-center">
-        <div className="col-12 col-md-6 col-lg-6 col-sm-12">
+        <div className="col-12 col-md-12 col-lg-6 col-sm-12">
           <h1 className="title-1 " style={{ marginBottom: "22px" }}>
             Discover, and collect Digital Art NFTs
           </h1>
@@ -33,8 +33,8 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-6 col-lg-6 col-sm-12">
-          <img src={img} alt="" className="img-fluid" />
+        <div className="col-12 col-md-12 col-lg-6 col-sm-12">
+          <img src={img} alt="" className="img-fluid ms-auto d-block" />
         </div>
       </div>
     </div>

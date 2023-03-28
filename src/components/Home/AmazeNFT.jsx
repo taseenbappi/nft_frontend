@@ -22,15 +22,30 @@ const AmazeNFT = () => {
   return (
     <div className="container-fluid" id="amaze-nft-container">
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row ">
           <div className="col-12 col-md-6 col-lg-4 col-sm-12">
             <h2 className="title-2">The amazing NFT art of the world here</h2>
           </div>
-          {data.map((item, idx) => (
-            <div className="col-12 col-md-6 col-lg-4 col-sm-12" key={idx}>
-              <AmazeNFTCard item={item} />
-            </div>
-          ))}
+          <div className="col-12 col-md-6 col-lg-4 col-sm-12">
+            <AmazeNFTCard
+              item={{
+                title: "Fast Transaction",
+                sub_title:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam etiam viverra tellus imperdiet.",
+                icon: icon1,
+              }}
+            />
+          </div>
+          <div className="col-12 col-md-6 col-lg-4 col-sm-12">
+            <AmazeNFTCard
+              item={{
+                title: "Growth Transaction",
+                sub_title:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam etiam viverra tellus",
+                icon: icon2,
+              }}
+            />
+          </div>
         </div>
       </div>
     </div>

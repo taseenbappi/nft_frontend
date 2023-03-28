@@ -1,11 +1,16 @@
 import React from "react";
+import "../../styles/Global/Header.scss";
+import { ReactComponent as Search } from "../../Assets/icon/search-icon.svg";
 
 const Header = () => {
   return (
-    <nav class=" navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container">
+    <nav
+      id="header-container"
+      className=" navbar navbar-expand-lg bg-body-tertiary container-fluid"
+    >
+      <div className="container">
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo01"
@@ -13,40 +18,49 @@ const Header = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">
-            NFters
-          </a>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+        <a className="navbar-brand" href="#">
+          NFters
+        </a>
+        <div
+          className="collapse navbar-collapse justify-content-between align-items-center py-4"
+          id="navbarTogglerDemo01"
+        >
+          <ul
+            className="navbar-nav justify-content-between mb-2 mb-lg-0 ms-auto "
+            style={{ gap: "16px" }}
+          >
+            <li className="nav-item">
+              <a
+                className="nav-link active nav-menu"
+                aria-current="page"
+                href="#"
+              >
                 Marketplace
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link nav-menu" href="#">
                 Resource
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link ">About</a>
+            <li className="nav-item">
+              <a className="nav-link nav-menu">About</a>
+            </li>
+            <li className="nav-item">
+              <div className="header-search-box">
+                <input type="text" placeholder="Search" className="" />
+                <Search />
+              </div>
+            </li>
+            <li className="nav-item">
+              <button className="header-primary-btn">Upload</button>
+            </li>
+            <li className="nav-item">
+              <button className="header-secondary-btn ">Connect Wallet</button>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-          <button className="btn btn-primary">Upload</button>
-          <button className="btn btn-secondary">Connect Wallet</button>
         </div>
       </div>
     </nav>

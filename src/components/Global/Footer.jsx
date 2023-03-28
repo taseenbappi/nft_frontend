@@ -7,10 +7,10 @@ import Copyright from "./Copyright";
 
 const Footer = () => {
   return (
-    <>
+    <div className="container-fluid">
       <div id="footer-container" className="container">
         <div className="row">
-          <div className="col-12 col-sm-12 col-md-6 col-lg-4 ">
+          <div className="col-12 col-sm-12 col-md-12 col-lg-4 ">
             <h2 className="title-2" style={{ marginBottom: "16px" }}>
               NFters
             </h2>
@@ -19,7 +19,10 @@ const Footer = () => {
               collectibles and non-fungible tokens (NFTs). Buy, sell, and
               discover exclusive digital items.
             </p>
-            <div className="d-flex" style={{ gap: "16px", marginTop: "24px" }}>
+            <div
+              className="d-flex pb-3"
+              style={{ gap: "16px", marginTop: "24px" }}
+            >
               <div>
                 <Facebook />
               </div>
@@ -31,7 +34,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-12 col-md-6 col-lg-2 ">
+          <div className="col-12 col-sm-12 col-md-3 col-lg-2 ">
             <p className="body-2 mb-4">Market Place</p>
             <div className="d-flex flex-column" style={{ gap: "8px" }}>
               <p className="footer-item">All NFTs</p>
@@ -43,7 +46,7 @@ const Footer = () => {
               <p className="footer-item">Domain Name</p>
             </div>
           </div>
-          <div className="col-12 col-sm-12 col-md-6 col-lg-2 ">
+          <div className="col-12 col-sm-12 col-md-3 col-lg-2 ">
             <p className="body-2 mb-4">My Account</p>
             <div className="d-flex flex-column" style={{ gap: "8px" }}>
               <p className="footer-item">Profile</p>
@@ -67,14 +70,14 @@ const Footer = () => {
                   autoComplete="off"
                   placeholder="Enter your email"
                 />
-                <button className="primary-btn">Subscibe Now</button>
+                <button className="subscribe-btn">Subscibe Now</button>
               </div>
             </div>
           </div>
         </div>
       </div>
       <Copyright />
-    </>
+    </div>
   );
 };
 
