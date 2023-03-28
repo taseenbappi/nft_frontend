@@ -1,0 +1,15 @@
+@import "../../scss/typography";
+@import "../../scss/custom_style";
+@import "../../scss/variable";
+
+#create-sell-nft-container {
+  padding: 102px 0px;
+  .create-sell-nft-card {
+    position: relative;
+    .create-sell-nft-card-user-img {
+      position: absolute;
+      bottom: -15%;
+      right: 5%;
+    }
+  }
+}

@@ -9,9 +9,12 @@
     .filter-btn-bar{
         padding: 38px 0px 38px 0px;
         display: flex;
-       justify-content: space-between;
+        justify-content: space-between;
+        gap: 10px;
+        flex-wrap: wrap;
         .filter-btn-holder{
             display: flex;
+            flex-wrap: wrap;
             gap: 10px;
             
         }
