@@ -1,4 +1,10 @@
 @import "@fontsource/dm-sans";
+@import "./scss/variable";
+@import "./scss/typography";
+@import "./scss/font";
+@import "./scss/mixing";
+@import "./scss/custom_style";
+
 
 /* Box sizing rules */
 *,
@@ -62,7 +68,7 @@ select {
 /* handle  */
 
 ::-webkit-scrollbar-thumb {
-  background: purple;
+  background:$primary-color;
 }
 
 /* hangle hover  */

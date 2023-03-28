@@ -1,0 +1,12 @@
+@import "./variable";
+@import "./font";
+@import "./mixing";
+
+.primary-btn{
+    @include btn-text-style;
+    padding: 20px 40px;
+    background: $primary-color;
+    border-radius: 60px;
+    color:white;
+    border: 0;
+}
