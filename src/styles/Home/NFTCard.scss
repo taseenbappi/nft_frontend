@@ -1,0 +1,54 @@
+@import "../../scss/variable";
+
+#nft-card{
+    background: #FFFFFF !important;
+    border: 1.09706px solid rgba(242, 242, 242, 0.5) !important;
+    border-radius: 13.1647px !important;
+    padding: 11px;
+    .card-img{
+        border-radius: 13px;
+    }
+    .bitting-user-pic-holder{
+        padding: 0px 12px 0px 12px;
+        margin-top: -15px;
+        .bitting-user-img{
+            border-radius: 50%;
+            &:not(:first-child){
+                margin-left: -10px;
+            }
+            
+        }
+    }
+  
+    .nft-card-title{
+        font-family: $body-font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px ;
+        line-height: 20px;
+        color: $title-font-color;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .nft-card-body-txt{
+        font-family: $body-font-family;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 14px;
+        margin: 0;
+    }
+    .nft-card-body-txt-2{
+        font-family: $body-font-family;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 20px;
+        color: $primary-color;
+        margin: 0;
+        &:not(:first-child){
+            font-size: 15px;
+        }
+    }
+}

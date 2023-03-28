@@ -1,0 +1,37 @@
+@import "../../scss/typography";
+@import "../../scss/custom_style";
+@import "../../scss/variable";
+
+#discover-nft-container{
+    padding-top: 64px;
+    padding-bottom: 47px;
+    background-color: $secondary-color;
+    .filter-btn-bar{
+        padding: 38px 0px 38px 0px;
+        display: flex;
+       justify-content: space-between;
+        .filter-btn-holder{
+            display: flex;
+            gap: 10px;
+            
+        }
+        .all-filter-btn{
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            background: rgba(220, 220, 220, 0.2);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 100px;
+            padding: 10px 20px;
+            border: 0;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+    }
+    .nft-card-container{
+        margin-bottom: 48px;
+    }
+}
