@@ -1,0 +1,25 @@
+@import "../../scss/variable";
+#footer-container{
+    padding: 79px 0px 79px 0px;
+    border-bottom: 1px solid #F4F4F4;
+    .subscribe-email{
+        background: #FFFFFF;
+        border: 2px solid #F1F1F1;
+        border-radius: 45.595px;
+        padding: 7.5px;
+        display: flex;
+        justify-content: space-between;
+        .subscribe-email-input{
+            border: 0;
+            padding: 0px 20px 0px 20px;
+            font-family: $body-font-family;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            &:focus{
+                outline-style: none;
+            }
+        }
+    }
+}

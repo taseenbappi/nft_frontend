@@ -28,7 +28,7 @@
 }
 
 .body-1{
-    font-family: 'DM Sans';
+    font-family: $body-font-family;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -37,7 +37,7 @@
     margin: 0;
 }
 .body-2{
-    font-family: 'DM Sans';
+    font-family: $body-font-family;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -46,11 +46,20 @@
     margin: 0;
 }
 .body-3{
-    font-family: 'DM Sans';
+    font-family: $body-font-family;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 160%;
-    color: $title-font-color;
+    color: $body-font-color;
+    margin: 0;
+}
+.footer-item{
+    font-family: $body-font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: $body-font-color;
     margin: 0;
 }

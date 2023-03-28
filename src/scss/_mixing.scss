@@ -1,11 +1,12 @@
 @import "../scss/font";
+@import "../scss/variable";
 
 @mixin btn-text-style {
-    font-family: 'DM Sans';
+    font-family: $body-font-family;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 25px;
     letter-spacing: 0.065em;
-    -webkit-text-stroke: 1px white;
+    // -webkit-text-stroke: 1px white;
 }
