@@ -15,7 +15,7 @@ const TopCollectionOver = () => {
       <TopCollectionUser />
       <TopCollectionUser />
       <TopCollectionUser />
-      <TopCollectionUser />
+      {/* <TopCollectionUser /> */}
     </div>
   );
 };
