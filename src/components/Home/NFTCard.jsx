@@ -6,39 +6,39 @@ import "../../styles/Home/NFTCard.scss";
 
 const NFTCard = () => {
   return (
-    <div class="col">
-      <div class="card h-100 w-100" id="nft-card">
+    <div className="col">
+      <div className="card h-100 w-100" id="nft-card">
         <div>
-          <img src={cardImg} class="card-img-top card-img" alt="..." />
+          <img src={cardImg} className="card-img-top card-img" alt="..." />
           <div className="bitting-user-pic-holder">
             <img
               src={bittingUserImg}
-              class="img-fluid bitting-user-img"
+              className="img-fluid bitting-user-img"
               alt="..."
               width="30px"
             />
             <img
               src={bittingUserImg}
-              class="img-fluid bitting-user-img"
+              className="img-fluid bitting-user-img"
               alt="..."
               width="30px"
             />
             <img
               src={bittingUserImg}
-              class="img-fluid bitting-user-img"
+              className="img-fluid bitting-user-img"
               alt="..."
               width="30px"
             />
             <img
               src={bittingUserImg}
-              class="img-fluid bitting-user-img"
+              className="img-fluid bitting-user-img"
               alt="..."
               width="30px"
             />
           </div>
         </div>
-        <div class="card-body pb-1">
-          <h5 class="nft-card-title">ArtCrypto</h5>
+        <div className="card-body pb-1">
+          <h5 className="nft-card-title">ArtCrypto</h5>
           <div className="d-flex justify-content-between align-items-center">
             <p
               className="nft-card-body-txt d-flex align-items-center"
