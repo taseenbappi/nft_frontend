@@ -2,11 +2,14 @@
 @import "../scss/variable";
 
 @mixin btn-text-style {
-    font-family: $body-font-family;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    letter-spacing: 0.065em;
-    // -webkit-text-stroke: 1px white;
+  font-family: $body-font-family;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.065em;
+  // -webkit-text-stroke: 1px white;
+  @media only screen and (max-width: 768px) {
+    font-size: 12px;
+  }
 }

@@ -3,12 +3,25 @@
 @import "../../scss/custom_style";
 
 #hero {
+  margin-top: 60px;
+  margin-bottom: 122px;
+
+  .hero-sub-title {
+    margin-bottom: 41px;
+  }
+
+  .hero-summary-content {
+    display: flex;
+    gap: 22px;
+    margin-top: 30px;
+  }
+
   .hero-slider-img {
     position: relative;
 
     svg {
       position: absolute;
-      left: 8%;
+      left: -10%;
       bottom: 30%;
       animation: action-spin infinite 20s linear;
     }
@@ -27,5 +40,22 @@
     //     animation: logo-spin infinite 20s linear;
     //   }
     // }
+  }
+  @media only screen and (max-width: 768px) {
+    margin-top: 30px;
+    margin-bottom: 45px;
+    .hero-sub-title {
+      margin-bottom: 20px;
+    }
+    .hero-summary-content {
+      margin-bottom: 24px;
+      justify-content: center;
+    }
+    .hero-slider-img {
+      svg {
+        left: 25%;
+        bottom: 30%;
+      }
+    }
   }
 }
