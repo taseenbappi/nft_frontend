@@ -11,7 +11,7 @@ const FeaturedNFTCard = () => {
     <div class="col">
       <div className="featured-nft-card h-100">
         <div class="row g-2 pb-4">
-          <div class="col-md-8">
+          <div class="col-8 col-sm-8 col-md-8 col-lg-8">
             <img
               src={img1}
               alt=""
@@ -19,7 +19,7 @@ const FeaturedNFTCard = () => {
             />
           </div>
           <div
-            class="col-md-4 d-flex flex-column justify-content-between"
+            class="col-4 col-sm-4 col-md-4 col-lg-4 d-flex flex-column justify-content-between"
             style={{ gap: "8px" }}
           >
             <img src={img2} alt="" className="img-fluid" />

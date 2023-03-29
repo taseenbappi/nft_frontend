@@ -8,4 +8,15 @@
   .featured-nfts-card-container {
     margin-top: 55px;
   }
+
+  @media only screen and (max-width: 768px) {
+    padding: 16px 16px;
+    .collection-featured-nft-title {
+      margin-top: 30px;
+    }
+    .featured-nfts-card-container {
+      margin-bottom: 55px;
+      margin-top: 40px;
+    }
+  }
 }
