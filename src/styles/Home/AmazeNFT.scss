@@ -7,4 +7,10 @@
   background: $secondary-color;
   // backdrop-filter: blur(25px);
   padding: 129px 0px 129px 0px;
+  @media only screen and (max-width: 768px) {
+    padding: 40px 0px 40px 0px;
+    .amaze-title {
+      margin-bottom: 30px;
+    }
+  }
 }
