@@ -1,10 +1,11 @@
-@import "../../scss/font";
 @import "../../scss/typography";
 @import "../../scss/custom_style";
 @import "../../scss/variable";
 
-#amaze-nft-container {
+#featured-nfts-container {
   background: $secondary-color;
-  // backdrop-filter: blur(25px);
-  padding: 129px 0px 129px 0px;
+  padding: 65px 65px;
+  .featured-nfts-card-container {
+    margin-top: 55px;
+  }
 }
