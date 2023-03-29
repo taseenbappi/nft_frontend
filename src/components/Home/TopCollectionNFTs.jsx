@@ -8,18 +8,18 @@ const TopCollectionNFTs = () => {
   return (
     <div className="container" id="top-collection-nft">
       <div class="row g-5">
-        <div class="col-12 col-md-12 col-lg-6">
+        <div class="col-12 col-md-12 col-lg-4">
           <TopNFTsFeaturedCard />
         </div>
         <div
-          class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-between"
+          class="col-12 col-md-12 col-lg-4 d-flex flex-column justify-content-between"
           style={{ gap: "10px" }}
         >
           <TopCollectionNFTsCard />
           <TopCollectionNFTsCard />
           <TopCollectionNFTsCard />
         </div>
-        <div class="col-12 col-md-12 col-lg-6">
+        <div class="col-12 col-md-12 col-lg-4">
           <TopCollectionOver />
         </div>
       </div>
