@@ -2,10 +2,11 @@ import React from "react";
 import img2 from "../../Assets/images/featured-card-img-2.png";
 import userImg from "../../Assets/images/user-img-1.svg";
 import { ReactComponent as Ethereum } from "../../Assets/icon/ethereum-icon.svg";
+import "../../styles/Home/TopCollectionNFTsCard.scss";
 
 const TopCollectionNFTsCard = () => {
   return (
-    <div className="d-flex " style={{ gap: "8px" }}>
+    <div className="d-flex top-collection-nft-card" style={{ gap: "8px" }}>
       <img src={img2} alt="" className="img-fluid object-fit-cover" />
       <div>
         <p className="body-2 pb-2">The Futr Abstr</p>
