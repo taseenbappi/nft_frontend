@@ -11,7 +11,7 @@ const TopNFTsFeaturedCard = () => {
         src={img}
         alt=""
         className="img-fluid pb-4 w-100"
-        style={{ maxHeight: "350px", objectFit: "cover" }}
+        // style={{ maxHeight: "350px", objectFit: "cover" }}
       />
       <div className="top-nft-featured-card-footer">
         <div className="d-flex align-items-center " style={{ gap: "10px" }}>

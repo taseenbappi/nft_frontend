@@ -10,10 +10,10 @@ const CreateSellNFT = () => {
       <div className="container" id="create-sell-nft-container">
         <div className="row  align-items-center">
           <div className="col-12 col-md-6 col-lg-6 col-sm-12">
-            <div className="row g-5 align-items-center">
-              <div className="col-12 col-md-6 col-lg-6 col-sm-12">
+            <div className="row g-5 align-items-center justify-content-center">
+              <div className="col-12 col-md-12 col-lg-6 col-sm-12">
                 <div className="row g-5">
-                  <div className="col-12 col-md-6 col-lg-12 col-sm-12">
+                  <div className="col-6 col-md-6 col-lg-12 col-sm-12">
                     <div className="create-sell-nft-card">
                       <img src={cardImg} alt="" className="d-block w-100" />
                       <img
@@ -24,7 +24,7 @@ const CreateSellNFT = () => {
                       />
                     </div>
                   </div>
-                  <div className="col-12 col-md-6 col-lg-12 col-sm-12">
+                  <div className="col-6 col-md-6 col-lg-12 col-sm-12">
                     <div className="create-sell-nft-card">
                       <img src={cardImg} alt="" className="d-block w-100" />
                       <img
@@ -37,7 +37,7 @@ const CreateSellNFT = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-md-6 col-lg-6 col-sm-12">
+              <div className="col-6 col-md-12 col-lg-6 col-sm-12">
                 <div className="create-sell-nft-card">
                   <img src={cardImg} alt="" className="d-block w-100" />
                   <img

@@ -7,7 +7,7 @@ import "../../styles/Home/NFTCard.scss";
 const NFTCard = () => {
   return (
     <div class="col">
-      <div class="card h-100 " id="nft-card">
+      <div class="card h-100 w-100" id="nft-card">
         <div>
           <img src={cardImg} class="card-img-top card-img" alt="..." />
           <div className="bitting-user-pic-holder">
@@ -37,7 +37,7 @@ const NFTCard = () => {
             />
           </div>
         </div>
-        <div class="card-body">
+        <div class="card-body pb-1">
           <h5 class="nft-card-title">ArtCrypto</h5>
           <div className="d-flex justify-content-between align-items-center">
             <p

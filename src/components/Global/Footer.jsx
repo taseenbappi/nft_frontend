@@ -8,7 +8,7 @@ import Copyright from "./Copyright";
 const Footer = () => {
   return (
     <div className="container-fluid">
-      <div id="footer-container" className="container">
+      <div id="footer-container" className="container mx-atuo">
         <div className="row">
           <div className="col-12 col-sm-12 col-md-12 col-lg-4 ">
             <h2 className="title-2" style={{ marginBottom: "16px" }}>

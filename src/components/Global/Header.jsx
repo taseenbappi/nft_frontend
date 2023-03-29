@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <nav
       id="header-container"
-      className=" navbar navbar-expand-lg bg-body-tertiary container-fluid"
+      className="navbar navbar-expand-lg bg-body-tertiary container-fluid"
     >
       <div className="container">
         <button
