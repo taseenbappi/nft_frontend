@@ -1,0 +1,11 @@
+@import "../../scss/variable";
+@import "../../scss/typography";
+@import "../../scss/custom_style";
+
+#top-collection-user-card {
+  .top-collection-user-context {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+  }
+}

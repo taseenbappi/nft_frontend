@@ -2,85 +2,112 @@
 @import "./font";
 @import "./mixing";
 
-.primary-btn{
-    @include btn-text-style;
-    padding: 16px 24px;
+.primary-btn {
+  @include btn-text-style;
+  padding: 16px 24px;
+  background: $primary-color;
+  border-radius: 60px;
+  color: white;
+  border: 0;
+}
+
+.secondary-btn {
+  @include btn-text-style;
+  padding: 16px 24px;
+  background: white;
+  border-radius: 60px;
+  color: $primary-color;
+  border: 2px solid $primary-color;
+}
+
+.header-primary-btn {
+  font-family: $body-font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 9px 24px;
+  background: $primary-color;
+  border-radius: 60px;
+  color: white;
+  border: 0;
+}
+
+.header-secondary-btn {
+  font-family: $body-font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 8px 24px;
+  background: white;
+  border-radius: 60px;
+  color: $primary-color;
+  border: 2px solid $primary-color;
+}
+
+.subscribe-btn {
+  font-family: $body-font-family;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 10px 16px;
+  background: $primary-color;
+  border-radius: 60px;
+  color: white;
+  border: 0;
+}
+
+.place-bit-btn {
+  font-family: $body-font-family;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 10px 16px;
+  background: white;
+  border: 2px solid $primary-color;
+  border-radius: 50px;
+  color: $title-font-color;
+  transition: all 0.2s ease-in;
+
+  &:hover {
     background: $primary-color;
-    border-radius: 60px;
-    color:white;
-    border: 0;
-}
-
-.secondary-btn{
-    @include btn-text-style;
-    padding: 16px 24px;
-    background: white;
-    border-radius: 60px;
-    color:$primary-color;
-    border: 2px solid $primary-color;
-}
-
-.header-primary-btn{
-    font-family: $body-font-family;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 21px;
-    padding: 9px 24px;
+    color: #ffffff;
+  }
+  &:active {
     background: $primary-color;
-    border-radius: 60px;
-    color:white;
-    border: 0;
-}
-
-.header-secondary-btn{
-    font-family: $body-font-family;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 21px;
-    padding: 8px 24px;
-    background: white;
-    border-radius: 60px;
-    color:$primary-color;
-    border: 2px solid $primary-color;
-}
-
-.subscribe-btn{
-    font-family: $body-font-family;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    padding: 10px 16px;
+    color: #ffffff;
+  }
+  &:nth-child(1) {
     background: $primary-color;
-    border-radius: 60px;
-    color:white;
-    border: 0;
-}
-.filter-btn{
-    font-family: $body-font-family;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: $title-font-color;
-    border: 0;
-    padding: 10px 20px;
-    background: $secondary-color;
-    border-radius: 100px;
-    transition: all 0.2s ease-in;
-    &:hover{
-        background: $primary-color;
-        color: #FFFFFF;
-    }
-    &:active{
-        background: $primary-color;
-        color: #FFFFFF;
-    }
-    &:nth-child(1){
-        background: $primary-color;
-        color: #FFFFFF;
-    }
+    color: #ffffff;
+  }
 }
 
+.filter-btn {
+  font-family: $body-font-family;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: $title-font-color;
+  border: 0;
+  padding: 10px 20px;
+  background: $secondary-color;
+  border-radius: 100px;
+  transition: all 0.2s ease-in;
+  &:hover {
+    background: $primary-color;
+    color: #ffffff;
+  }
+  &:active {
+    background: $primary-color;
+    color: #ffffff;
+  }
+  &:nth-child(1) {
+    background: $primary-color;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,12 @@
+@import "../../scss/typography";
+@import "../../scss/custom_style";
+@import "../../scss/variable";
+
+#top-nft-featured-card {
+  .top-nft-featured-card-footer {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

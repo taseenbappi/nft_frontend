@@ -6,6 +6,7 @@ import CreateSellNFT from "../components/Home/CreateSellNFT";
 import DiscoverNFTs from "../components/Home/DiscoverNFTs";
 import FeaturedNFTs from "../components/Home/FeaturedNFTs";
 import Hero from "../components/Home/Hero";
+import TopCollectionNFTs from "../components/Home/TopCollectionNFTs";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Header />
       <Hero />
       <AmazeNFT />
+      <TopCollectionNFTs />
       <FeaturedNFTs />
       <CreateSellNFT />
       <DiscoverNFTs />
