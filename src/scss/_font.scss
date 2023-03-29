@@ -1,24 +1,12 @@
 @font-face {
-  font-family: "IntegralCF-Regular";
-  font-style: normal;
-  src: local("IntegralCF-Regular"),
-    url("../Assets/font/IntegralCF-Regular.woff") format("woff");
-}
-@font-face {
   font-family: "IntegralCF-Medium";
   font-style: normal;
   src: local("IntegralCF-Medium"),
-    url("../Assets/font/IntegralCF-Medium.otf") format("opentype");
+    url("../../public/font/IntegralCF-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "Integralcf-bold";
   font-style: normal;
   src: local("IntegralCF-Bold"),
-    url("../Assets/font/IntegralCF-Bold.woff") format("woff");
-}
-@font-face {
-  font-family: "AvertaDemoPECuttedDemo-Regular";
-  font-style: normal;
-  src: local("AvertaDemoPECuttedDemo-Regular"),
-    url("../Assets/font/AvertaDemoPECuttedDemo-Regular.ttf") format("truetype");
+    url("../../public/font/IntegralCF-Bold.woff") format("woff");
 }

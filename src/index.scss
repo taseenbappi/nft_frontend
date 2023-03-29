@@ -5,6 +5,18 @@
 @import "./scss/mixing";
 @import "./scss/custom_style";
 
+@font-face {
+  font-family: "IntegralCF-Medium";
+  font-style: normal;
+  src: local("IntegralCF-Medium"),
+    url("../../public/font/IntegralCF-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Integralcf-bold";
+  font-style: normal;
+  src: local("IntegralCF-Bold"),
+    url("../../public/font/IntegralCF-Bold.woff") format("woff");
+}
 
 /* Box sizing rules */
 *,
@@ -68,7 +80,7 @@ select {
 /* handle  */
 
 ::-webkit-scrollbar-thumb {
-  background:$primary-color;
+  background: $primary-color;
 }
 
 /* hangle hover  */
