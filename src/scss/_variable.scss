@@ -1,10 +1,12 @@
+@import "./font";
 // color palate
-$primary-color:#3D00B7;
-$secondary-color:rgba(217, 224, 236, 0.2);
+$primary-color: #3d00b7;
+$secondary-color: rgba(217, 224, 236, 0.2);
 
 // font color
-$title-font-color:#000000;
-$body-font-color:#565656;
+$title-font-color: #000000;
+$body-font-color: #565656;
 
-$body-font-family:'DM Sans';
-
+$title-font-family-medium: "IntegralCF-Medium";
+$title-font-family-bold: "Integralcf-bold";
+$body-font-family: "DM Sans";

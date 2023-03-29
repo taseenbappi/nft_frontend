@@ -1,3 +1,31 @@
 @import "../../scss/font";
 @import "../../scss/typography";
 @import "../../scss/custom_style";
+
+#hero {
+  .hero-slider-img {
+    position: relative;
+
+    svg {
+      position: absolute;
+      left: 8%;
+      bottom: 30%;
+      animation: action-spin infinite 20s linear;
+    }
+
+    @keyframes action-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    // @media (prefers-reduced-motion: no-preference) {
+    //   a:nth-of-type(2) .logo {
+    //     animation: logo-spin infinite 20s linear;
+    //   }
+    // }
+  }
+}

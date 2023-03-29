@@ -1,10 +1,12 @@
 import React from "react";
 import "../../styles/Home/Hero.scss";
 import img from "../../Assets/images/hero-img.png";
+import { ReactComponent as ActionLive } from "../../Assets/images/live-action.svg";
 
 const Hero = () => {
   return (
     <div
+      id="hero"
       className="container"
       style={{ marginTop: "60px", marginBottom: "122px" }}
     >
@@ -33,8 +35,11 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-12 col-lg-6 col-sm-12">
-          <img src={img} alt="" className="img-fluid ms-auto d-block" />
+        <div className="col-12 col-md-12 col-lg-6 col-sm-12 text-center">
+          <div className="hero-slider-img">
+            <img src={img} alt="" className="img-fluid " />
+            <ActionLive />
+          </div>
         </div>
       </div>
     </div>
