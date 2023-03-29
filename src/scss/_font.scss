@@ -2,17 +2,11 @@
   font-family: "IntegralCF-Medium";
   font-style: normal;
   src: local("IntegralCF-Medium"),
-    url("../../public/fonts/IntegralCF-Medium.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Integralcf-bold";
-  font-style: normal;
-  src: local("IntegralCF-Bold"),
-    url("../../public/fonts/IntegralCF-Bold.woff") format("woff");
+    url("../Assets/fonts/IntegralCF-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "Abrade-Black";
   font-style: normal;
   src: local("Abrade-Black"),
-    url("../../public/fonts/Abrade-Black.ttf") format("truetype");
+    url("../Assets/fonts/Abrade-Black.ttf") format("truetype");
 }
