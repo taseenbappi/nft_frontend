@@ -23,7 +23,7 @@ const AmazeNFT = () => {
     <div className="container-fluid" id="amaze-nft-container">
       <div className="container">
         <div className="row ">
-          <div className="col-12 col-md-6 col-lg-4 col-sm-12">
+          <div className="col-12 col-md-12 col-lg-4 col-sm-12">
             <h2 className="title-2 amaze-title">
               The amazing NFT art of the world here
             </h2>
