@@ -7,26 +7,122 @@
   .create-sell-title {
     margin-bottom: 16px;
   }
-  .create-sell-nft-card {
+  // card 1
+  .create-sell-nft-card-1 {
     position: relative;
-    .create-sell-nft-card-user-img {
+    // .create-sell-card-img-1 {
+    //   width: 300px !important;
+    // }
+    .create-sell-nft-card-user-img-1 {
       position: absolute;
       bottom: -15%;
-      right: -4%;
+      right: -8%;
+    }
+  }
+  // card 2
+  .create-sell-nft-card-2 {
+    position: relative;
+    .create-sell-card-img-2 {
+      width: 200px !important;
+      margin-left: auto;
+    }
+    .create-sell-nft-card-user-img-2 {
+      position: absolute;
+      bottom: -15%;
+      right: -8%;
+    }
+  }
+  // card 3
+  .create-sell-nft-card-3 {
+    position: relative;
+    .create-sell-card-img-3 {
+      width: 240px !important;
+    }
+    .create-sell-nft-card-user-img-3 {
+      position: absolute;
+      bottom: -15%;
+      right: -6%;
     }
   }
   @media only screen and (max-width: 768px) {
     padding: 50px 0px;
     .create-sell-title {
-      margin-top: 50px;
+      margin-top: 80px;
       margin-bottom: 16px;
     }
-    .create-sell-nft-card {
-      width: 100%;
-      .create-sell-nft-card-user-img {
-        bottom: -20%;
+    // card 1
+    .create-sell-nft-card-1 {
+      .create-sell-card-img-1 {
+        width: 100% !important;
+      }
+      .create-sell-nft-card-user-img-1 {
+        bottom: -18%;
+        right: 32%;
+        width: 50px;
+      }
+    }
+    // card 2
+    .create-sell-nft-card-2 {
+      .create-sell-card-img-2 {
+        width: 100% !important;
+      }
+      .create-sell-nft-card-user-img-2 {
+        bottom: -15%;
+        right: 32%;
+        width: 50px;
+      }
+    }
+    // card 3
+    .create-sell-nft-card-3 {
+      .create-sell-card-img-3 {
+        width: 100% !important;
+      }
+      .create-sell-nft-card-user-img-3 {
+        bottom: -15%;
+        right: 32%;
+        width: 50px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 960px) {
+    padding: 50px 0px;
+    .create-sell-title {
+      margin-top: 80px;
+      margin-bottom: 16px;
+    }
+
+    // card 1
+    .create-sell-nft-card-1 {
+      .create-sell-card-img-1 {
+        width: 100% !important;
+      }
+      .create-sell-nft-card-user-img-1 {
+        bottom: -10%;
+        right: -10%;
+      }
+    }
+
+    // card 2
+    .create-sell-nft-card-2 {
+      .create-sell-card-img-2 {
+        width: 100% !important;
+      }
+      .create-sell-nft-card-user-img-2 {
+        bottom: -12%;
+        right: -8%;
+      }
+    }
+
+    // card 3
+    .create-sell-nft-card-3 {
+      .create-sell-card-img-3 {
+        // width: 100% !important;
+        margin: auto !important;
+      }
+      .create-sell-nft-card-user-img-3 {
+        bottom: -8%;
         right: 30%;
-        width: 60px;
       }
     }
   }
