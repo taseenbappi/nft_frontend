@@ -23,6 +23,10 @@
       left: -10%;
       bottom: 30%;
       animation: action-spin infinite 20s linear;
+      cursor: pointer;
+      &:hover {
+        animation: action-r-spin infinite 20s linear;
+      }
     }
 
     @keyframes action-spin {
@@ -31,6 +35,14 @@
       }
       to {
         transform: rotate(360deg);
+      }
+    }
+    @keyframes action-r-spin {
+      from {
+        transform: rotate(360deg);
+      }
+      to {
+        transform: rotate(0deg);
       }
     }
 

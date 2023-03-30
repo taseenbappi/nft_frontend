@@ -4,12 +4,12 @@ import bittingUserImg from "../../Assets/images/bitting-user-img.svg";
 import { ReactComponent as Ethereum } from "../../Assets/icon/ethereum-icon.svg";
 import "../../styles/Home/NFTCard.scss";
 
-const NFTCard = () => {
+const NFTCard = ({ item }) => {
   return (
     <div className="col">
       <div className="card h-100 w-100" id="nft-card">
         <div>
-          <img src={cardImg} className="card-img-top card-img" alt="..." />
+          <img src={item?.image} className="card-img-top card-img" alt="..." />
           <div className="bitting-user-pic-holder">
             <img
               src={bittingUserImg}
@@ -38,14 +38,14 @@ const NFTCard = () => {
           </div>
         </div>
         <div className="card-body pb-1">
-          <h5 className="nft-card-title">ArtCrypto</h5>
+          <h5 className="nft-card-title">{item?.title}</h5>
           <div className="d-flex justify-content-between align-items-center">
             <p
               className="nft-card-body-txt d-flex align-items-center"
               style={{ color: "#00AC4F", gap: "6px" }}
             >
               <Ethereum />
-              0.25 ETH
+              {item?.euthereum}
             </p>
             <p className="nft-card-body-txt" style={{ color: "#838383" }}>
               1 of 321
@@ -61,7 +61,7 @@ const NFTCard = () => {
                 borderRadius: "109.706px",
               }}
             >
-              3h 50m 2s left
+              {item?.time}
             </p>
             <p className="nft-card-body-txt-2">Place a bid</p>
           </div>

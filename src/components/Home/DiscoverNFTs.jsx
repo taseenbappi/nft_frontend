@@ -1,9 +1,63 @@
 import React from "react";
-import "../../styles/Home/DiscoverNFTs.scss";
 import { ReactComponent as FilterIcon } from "../../Assets/icon/filter-icon.svg";
 import NFTCard from "./NFTCard";
+import cardImg1 from "../../Assets/images/nft-card-img.png";
+import cardImg2 from "../../Assets/images/image-2.png";
+import cardImg3 from "../../Assets/images/image-3.png";
+import cardImg4 from "../../Assets/images/image-4.png";
+import "../../styles/Home/DiscoverNFTs.scss";
 
 const DiscoverNFTs = () => {
+  const nft_data = [
+    {
+      title: "ArtCrypto",
+      euthereum: "0.25 ETH",
+      time: "4h 50m 2s left",
+      image: cardImg1,
+    },
+    {
+      title: "This NFT",
+      euthereum: "0.55 ETH",
+      time: "2h 50m 2s left",
+      image: cardImg2,
+    },
+    {
+      title: "NameCrypto",
+      euthereum: "0.35 ETH",
+      time: "5h 50m 2s left",
+      image: cardImg3,
+    },
+    {
+      title: "KingCrypto",
+      euthereum: "0.57 ETH",
+      time: "9h 50m 2s left",
+      image: cardImg4,
+    },
+    {
+      title: "NameCrypto",
+      euthereum: "0.25 ETH",
+      time: "3h 50m 2s left",
+      image: cardImg4,
+    },
+    {
+      title: "This NFT",
+      euthereum: "0.25 ETH",
+      time: "9h 50m 2s left",
+      image: cardImg3,
+    },
+    {
+      title: "ArtCrypto",
+      euthereum: "0.25 ETH",
+      time: "5h 50m 2s left",
+      image: cardImg2,
+    },
+    {
+      title: "KingCrypto",
+      euthereum: "0.25 ETH",
+      time: "6h 50m 2s left",
+      image: cardImg1,
+    },
+  ];
   return (
     <div className="container-fluid" id="discover-nft-container">
       <div className="container">
@@ -24,14 +78,9 @@ const DiscoverNFTs = () => {
           </button>
         </div>
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 nft-card-container">
-          <NFTCard />
-          <NFTCard />
-          <NFTCard />
-          <NFTCard />
-          <NFTCard />
-          <NFTCard />
-          <NFTCard />
-          <NFTCard />
+          {nft_data?.map((item, idx) => (
+            <NFTCard key={idx} item={item} />
+          ))}
         </div>
         <button className="secondary-btn d-block m-auto">More NFTs</button>
       </div>

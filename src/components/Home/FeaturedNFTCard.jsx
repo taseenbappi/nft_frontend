@@ -31,7 +31,7 @@ const FeaturedNFTCard = () => {
         <div className="featured-nft-card-footer">
           <div className="d-flex align-items-center " style={{ gap: "10px" }}>
             <img src={userImg} alt="" className="img-fluid " width="28px" />
-            <p className="body-4">by Taseen_Bappi</p>
+            <p className="body-4">by Taseen Bappi</p>
           </div>
           <div className="total-items-box">
             <p className="body-4">Total 54 Items</p>
